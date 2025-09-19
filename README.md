@@ -1,5 +1,5 @@
 # SAM2Flow: Interactive Optical Flow Estimation with Dual Memory for in vivo Microcirculation Analysis (NeurIPS 2025)
 ## Updates
-/item 2025-09-19 Code and dataset are coming soon!
+\item 2025-09-19 Code and dataset are coming soon!
 ## Abstract
 Analysis of noninvasive microvascular blood flow can improve the diagnosis, prognosis, and management of many medical conditions, including cardiovascular, peripheral vascular, and sickle cell disease. This paper introduces SAM2Flow, an interactive optical flow estimation model to analyze long Oblique Back-illumination Microscopy (OBM) videos of in vivo microvascular flow. Inspired by the Segment Anything Model (SAM2), SAM2Flow enables users to specify regions of interest through user prompts for focused flow estimation. SAM2Flow also incorporates a dual memory attention mechanism, comprising both motion and context memory, to achieve efficient and stable flow estimations over extended video sequences. According to our experiments, SAM2Flow achieves SOTA accuracy in flow estimation with a fast inference speed of over $200$ fps on $512\times 512$ inputs. Based on the temporally robust flow estimation, SAM2Flow demonstrated superior performance in downstream physiological applications compared to existing models. 

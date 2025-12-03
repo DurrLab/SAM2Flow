@@ -1,7 +1,4 @@
 import sys
-
-sys.path.append('/home/durrlab/Desktop/OpticalFlow/MemFlow/core')
-
 from PIL import Image
 import os
 import numpy as np

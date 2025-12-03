@@ -2,7 +2,7 @@ from yacs.config import CfgNode as CN
 _CN = CN()
 
 _CN.name = 'SAMFlow_base'
-_CN.suffix = 'MGH_samflownet'
+_CN.suffix = 'sam2flownet'
 _CN.gamma = 0.85
 _CN.max_flow = 400
 _CN.batch_size = 16

@@ -22,7 +22,7 @@ Analysis of noninvasive microvascular blood flow can improve the diagnosis, prog
    The script loads the default config, builds SAM2Flow, and reports the output tensor shapes.
 
 ## Training & Datasets
-- The CapFlow / MGH OBM dataset loader is implemented in `core/datasets/datasets_SAM.py` with prompt sampling utilities.
+- The dataset loader is implemented in `core/datasets/datasets_SAM.py` with prompt sampling utilities.
 - To train, adapt the notebook pipelines (`notebooks/0_1_train_SEARAFT.ipynb`) or build a custom trainer leveraging `core.Networks.build_network(get_cfg())` and the provided dataloaders.
 - Memory length, decoder depth, optimizer, and LR schedule are configurable under `configs/sam2flow_base.py` and `_CN.trainer`.
 
@@ -35,7 +35,3 @@ configs/                 # YACS configs (SAM2Flow defaults)
 scripts/demo_sam2flow.py # Minimal demo entry point
 notebooks/               # Data prep / legacy experiments
 ```
-
-## References
-- Huang et al., *SAM2Flow: Interactive Optical Flow Estimation with Dual Memory for in vivo Microcirculation Analysis* (OpenReview 2025).
-- DurrLab segment-anything-2 adaptations for microscopy imagery.

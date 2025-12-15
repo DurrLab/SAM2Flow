@@ -1,4 +1,4 @@
-# SAM2Flow: Interactive Optical Flow Estimation with Dual Memory for in vivo Microcirculation Analysis (NeurIPS 2025)
+# [NeurIPS 2025] SAM2Flow: Interactive Optical Flow Estimation with Dual Memory for in vivo Microcirculation Analysis
 ## Updates
 **2025-12-02:** Training code & weights are coming soon!
 ## Abstract
